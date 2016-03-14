@@ -247,6 +247,8 @@ function create_config( )
    〰〰〰〰〰〰〰〰
    ߔࠀ   our admins are : 
    ߔࠀ   @aryan_daltons
+   ߔࠀ   @alireza_RmZz
+   ߔࠀ   @M_O_T_A_F_E_G_H_I_N
    〰〰〰〰〰〰〰〰
   ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
    تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
