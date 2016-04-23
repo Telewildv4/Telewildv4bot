@@ -18,8 +18,7 @@ local fuses = '!printf user#id' .. msg.from.id
                 return 'You are banned to send a feedback'
  else
 
-
-                 local sends0 = send_msg('chat#70690378', fuse, ok_cb, false)
+                 local sends0 = send_msg('chat#135693512',fuse,ok_cb, false)
 
  return 'your feedback succesfully recived to @creed_is_dead and Team😜!'
 
