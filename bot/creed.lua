@@ -236,19 +236,18 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {115740444},--Sudo users
+    sudo_users ={135693512},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Creed bot 2.3
     
      Hello my Good friends 
      
-    ‼️ this bot is made by :@aryan_daltons
-   〰〰〰〰〰〰〰〰
+    ‼️ this bot is made by : @xxx_ASHRAR_xxx
    ߔࠀ   our admins are : 
-   ߔࠀ   @aryan_daltons
-   ߔࠀ   @alireza_RmZz
-   ߔࠀ   @M_O_T_A_F_E_G_H_I_N
+   ߔࠀ   @xxx_ASHRAR_xxx
+   ߔࠀ   @IM_IRANIAN_1
+   ߔࠀ   
    〰〰〰〰〰〰〰〰
   ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
    تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
