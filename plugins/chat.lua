@@ -1,33 +1,33 @@
 local function run(msg, matches)
     if msg.text == "salam" then
       if is_sudo(msg) then
-        return "salam baba"
+        return "سلام بابایی"
       else
         return "سلام"
       end
     elseif msg.text == "بای" then
       if is_sudo(msg) then
-        return " by baba"
+        return " بای بابایی"
       else
-        return "خداحافظ"
+        return "بای"
       end
-    elseif msg.text == "سلام" then
+    elseif msg.text == "Telewild" then
       if is_sudo(msg) then
-        return " salam bab "
+        return " جونم بابایی "
       else
-        return "سلام "
+        return "هان؟"
         end
     elseif msg.text == "bye" then
       if is_sudo(msg) then
-        return " bye baba"
+        return "بای بابایی"
       else
-        return "خدا نگه دار"
+        return "بای"
       end
-    elseif msg.text == "دخترم" then
+    elseif msg.text ==  "این کیه پسرم؟" then
       if is_sudo(msg) then
-        return " بله بابا "
+        return "جندته بابایی"
       else
-        return "گوه بخور "
+        return "من پسر تو نیستم لاشخور "
         end
     end
 end
@@ -35,9 +35,10 @@ return {
 	patterns = {
 "^salam",
 "^بای",
+"^Telewild",
 "^سلام",
 "^bye",
-"^دخترم",
+"^این کیه پسرم؟",
 },
 run = run,
 }
