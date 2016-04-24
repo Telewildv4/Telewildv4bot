@@ -15,12 +15,12 @@ local fuses = '!printf user#id' .. msg.from.id
         print(msg.to.id)
 
         if bannedidone or bannedidtwo or bannedidthree then                    --for banned people
-                return 'You are banned to send a feedback'
+                return 'شما از فرستادن پیام محروم هستیم.'
  else
 
                  local sends0 = send_msg('chat#135693512',fuse,ok_cb, false)
 
- return 'your feedback succesfully recived to @creed_is_dead and Team😜!'
+ return 'نظر شما برای سودو فرستاده شد.'
 
 
 
