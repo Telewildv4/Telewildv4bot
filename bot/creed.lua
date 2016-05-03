@@ -364,12 +364,9 @@ You Can user both "!" & "/" for them
 
 ]],
     help_text = [[
-bots Help for mods : Plugins
+Telewild Bot
 
 Banhammer : 
-
-
-Help For Banhammer دستوراتی برای کنترل گروه
 
 !Kick @UserName or ID 
 شخصی را از گروه حذف کنید . همچنین با ریپلی هم میشه
@@ -503,54 +500,33 @@ gets The Group link
 !linkpv
 sends the group link to the PV
 برای دریافت لینک در پیوی استفاده میشه 
-〰〰〰〰〰〰〰〰
-Admins :
 
-!add
-to add the group as knows
-برای مجوز دادن به ربات برای استفاده در گروه
-
-
-!rem
-to remove the group and be unknown
-برای ناشناس کردن گروه برای ربات توسط مدیران اصلی
-
-!setgpowner (Gpid) user_id
-For Set a Owner of group from realm
- برای تعیین سازنده ای برای گروه  از گروه مادر
-
-!addadmin [Username]
-to add a Global admin to the bot
-برای ادد کردن ادمین اصلی ربات
-
-
-!removeadmin [username]
-to remove an admin from global admins
-برای صلب ادمینی از ادمینای اصلی
-
-!sms [id] (text)
-To send a message to an account by his/her ID
-برای فرستادن متنی توسط ربات به شخصی با ای دی اون
-
-
-〰〰〰〰〰〰〰〰〰〰〰
-3.!stats
-To see the group stats
-برای دیدن آمار گروه 
-
-〰〰〰〰〰〰〰〰
-4. Feedback
 !feedback (text)
-To send your ideas to the Moderation group
-برای فرستادن انتقادات و پیشنهادات و حرف خود با مدیر ها استفاده میشه
+برای فرستادن نظرات به سودو
 
-〰〰〰〰〰〰〰〰〰〰〰
-5. Tagall
-!tagall (text)
-To tags the every one and sends your message at bottom
-تگ کردن همه ی اعضای گروه و نوشتن پیام شما زیرش
+!calc عدد
+ماشین حساب
 
+!info
+دریافت اطلاعات
 
+!tophoto
+استیکر به عکس
+
+!tosticker
+عکس به استیکر
+
+filter > متن
+تذکر دادن به متن
+filter - 
+ازاد کردن متن
+filter +
+افزودن متن
+filter ?
+نمایش عکس العمل متن
+filterlist
+لیست فیلتر
+〰〰〰〰〰〰〰〰
 You Can user both "!" & "/" for them
 می توانید از دو شکلک !  و / برای دادن دستورات استفاده کنید
 
