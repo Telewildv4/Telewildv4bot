@@ -257,7 +257,17 @@ function create_config( )
     "echo+",
     "chat",
     "calc",
-    "bot_on_off"
+    "robot",
+    "id",
+    "time",
+    "ip",
+    "instagram",
+    "me",
+    "translate",
+    "Fantasy",
+    "text-sticker",
+    "clash",
+    
     
     },
     sudo_users ={135693512},--Sudo users
