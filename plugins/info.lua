@@ -1,7 +1,7 @@
 local function callback_reply(extra, success, result)
   —icon & rank —----------------------------------------------------------------------------------------------
   userrank = "Member"
-  if tonumber(result.from.id) == 135693512 then
+  if tonumber(result.from.id) == 139693972 then
     userrank = "Master ⭐️⭐️⭐️⭐️"
     send_document(org_chat_id,"./icons/7.webp", ok_cb, false)
   elseif is_sudo(result) then
@@ -17,7 +17,7 @@ local function callback_reply(extra, success, result)
     userrank = "Moderator ⭐️"
     send_document(org_chat_id,"./icons/4.webp", ok_cb, false)
   elseif tonumber(result.from.id) == tonumber(our_id) then
-    userrank = "Telewild ⭐️⭐️⭐️⭐️⭐️⭐️"
+    userrank = "Umbrella ⭐️⭐️⭐️⭐️⭐️⭐️"
     send_document(org_chat_id,"./icons/9.webp", ok_cb, false)
   elseif result.from.username then
     if string.sub(result.from.username:lower(), -3) == "bot" then
@@ -103,7 +103,6 @@ local function callback_reply(extra, success, result)
   else
     hardware = "-----"
   end
-
 —phone —----------------------------------------------------------------------------------------------
   if access == 1 then
     if result.from.phone then
@@ -170,13 +169,12 @@ local function callback_reply(extra, success, result)
   .."آی دی گروه: "..result.to.id
   send_large_msg(org_chat_id, info)
 end
-
 local function callback_res(extra, success, result)
   if success == 0 then
     return send_large_msg(org_chat_id, "یوزرنیم وارد شده اشتباه است")
   end
   —icon & rank —----------------------------------------------------------------------------------------------
-  if tonumber(result.id) == 135693512 then
+  if tonumber(result.id) == 139693972 then
     userrank = "Master ⭐️⭐️⭐️⭐️"
     send_document(org_chat_id,"./icons/7.webp", ok_cb, false)
   elseif is_sudo(result) then
@@ -192,7 +190,7 @@ local function callback_res(extra, success, result)
     userrank = "Moderator ⭐️"
     send_document(org_chat_id,"./icons/4.webp", ok_cb, false)
   elseif tonumber(result.id) == tonumber(our_id) then
-    userrank = "Telewild ⭐️⭐️⭐️⭐️⭐️⭐️"
+    userrank = "Umbrella ⭐️⭐️⭐️⭐️⭐️⭐️"
     send_document(org_chat_id,"./icons/9.webp", ok_cb, false)
   elseif string.sub(result.username:lower(), -3) == 'bot' then
     userrank = "API Bot"
@@ -268,13 +266,12 @@ local function callback_res(extra, success, result)
   .."جایگاه: "..userrank.."\n\n"
   send_large_msg(org_chat_id, info)
 end
-
 local function callback_info(extra, success, result)
   if success == 0 then
     return send_large_msg(org_chat_id, "آی دی وارد شده اشتباه است")
   end
   —icon & rank —----------------------------------------------------------------------------------------------
-  if tonumber(result.id) == 135693512 then
+  if tonumber(result.id) == 139693972 then
     userrank = "Master ⭐️⭐️⭐️⭐️"
     send_document(org_chat_id,"./icons/7.webp", ok_cb, false)
   elseif is_sudo(result) then
@@ -290,7 +287,7 @@ local function callback_info(extra, success, result)
     userrank = "Moderator ⭐️"
     send_document(org_chat_id,"./icons/4.webp", ok_cb, false)
   elseif tonumber(result.id) == tonumber(our_id) then
-    userrank = "Telewild ⭐️⭐️⭐️⭐️⭐️⭐️"
+    userrank = "Umbrella ⭐️⭐️⭐️⭐️⭐️⭐️"
     send_document(org_chat_id,"./icons/9.webp", ok_cb, false)
   elseif string.sub(result.username:lower(), -3) == 'bot' then
     userrank = "API Bot"
@@ -372,8 +369,6 @@ local function callback_info(extra, success, result)
   end
   if result.last_name then
     if string.len(result.last_name) > 15 then
-
-#ＡryaN #αναѕт #Power shield, [۱۵.۰۷.۱۶ ۱۶:۲۶]
 lastname = string.sub(result.last_name, 0,15).."..."
     else
       lastname = result.last_name
@@ -471,8 +466,6 @@ local function run(msg, matches)
           elseif string.sub(msg.from.phone, 0,5) == '98932' then
             number = number.."\nنوع سیمکارت: تالیا"
           elseif string.sub(msg.from.phone, 0,4) == '9893' then
-
-#ＡryaN #αναѕт #Power shield, [۱۵.۰۷.۱۶ ۱۶:۲۶]
 number = number.."\nنوع سیمکارت: ایرانسل"
           elseif string.sub(msg.from.phone, 0,4) == '9890' then
             number = number.."\nنوع سیمکارت: ایرانسل"
