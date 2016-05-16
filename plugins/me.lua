@@ -4,7 +4,7 @@ local function run(msg, matches)
   if matches[1] == 'me' then
     if is_sudo(msg) then
     send_document(get_receiver(msg), "./files/sticker/sudo.webp", ok_cb, false)
-      return "You are My SUDO"
+      return "معلومه دیگه بابامییییییی"
     elseif is_admin1(msg) then
     send_document(get_receiver(msg), "./files/sticker/admin.webp", ok_cb, false)
       return "You are My ADMIN"
