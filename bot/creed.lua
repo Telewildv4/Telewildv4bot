@@ -221,7 +221,7 @@ function create_config( )
     "block",
     "tagall",
     "arabic_lock",
-    "welcome",
+    "welcome2",
     "google",
     "sms",
     "Debian_service",
@@ -237,8 +237,6 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "XY",
-    "weather",
     "tosticker",
     "tophoto",
     "spam",
@@ -266,7 +264,7 @@ function create_config( )
     "translate",
     "Fantasy",
     "text-sticker",
-    "clash",
+    "clash"
     
     
     },
